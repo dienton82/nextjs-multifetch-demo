@@ -97,7 +97,7 @@ npm run dev
 
 ## 🖼️ Captura
 
-![Home](public/preview-nextjs.png)
+![Home](pages/next.webp)
 
 ---
 
