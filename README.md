@@ -1,99 +1,103 @@
-# 📘 Pruebas Técnicas con Next.js
+# 🚀 Next.js Multifetch Demo
 
-![Next.js](https://img.shields.io/badge/Next.js-14.2.4-black?logo=nextdotjs&style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-61dafb?logo=react&style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.4.5-3178c6?logo=typescript&style=for-the-badge)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.1-38bdf8?logo=tailwindcss&style=for-the-badge)
-![CSS Modules](https://img.shields.io/badge/CSS%20Modules-Compatible-264de4?logo=css3&style=for-the-badge)
-![MIT License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)
-
----
-
-## 🚀 Descripción
-
-Este repositorio contiene una serie de pruebas técnicas realizadas con **Next.js** que incluyen funcionalidades como SSR, SSG, rutas dinámicas, consumo de APIs externas y componentes reutilizables con estilos modernos.
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 🧩 Tecnologías Utilizadas
+## 🧠 Descripción
 
-- ⚛️ **Next.js** para renderizado SSR y SSG.
-- 💙 **React** como biblioteca base.
-- 🟦 **TypeScript** para tipado estático.
-- 🌬 **TailwindCSS** para estilos utilitarios.
-- 🎨 **CSS Modules** para estilos encapsulados.
-- ☁️ **Vercel** para despliegue.
+Este proyecto es una **demostración práctica** desarrollada con Next.js, Tailwind CSS y TypeScript. Explora diferentes técnicas de consumo de datos con **SSR, SSG, ISR, Hooks personalizados, rutas dinámicas y simulaciones de componentes reales** como catálogos, productos, blog y más.
 
 ---
 
-## 📦 Funcionalidades
+## 🌐 Acceso en línea
 
-| Página                  | Tipo       | Descripción                                              |
-|-------------------------|------------|----------------------------------------------------------|
-| `/clientes`             | CSR        | Lista de usuarios obtenidos desde JSONPlaceholder        |
-| `/productos`            | SSR        | Productos obtenidos de FakeStore API (Server-side)       |
-| `/blog`                 | SSG        | Posts generados estáticamente desde JSONPlaceholder      |
-| `/tiempo-real`          | SSR        | Listado de tareas simulando tiempo real                  |
-| `/producto/[id]`        | SSG + ISR  | Detalles de producto con regeneración estática incremental |
-| `/catalogo`             | CSR        | Tarjetas de productos con props estáticos                |
-| `/prueba-refactor`      | CSR        | Componente refactorizado con navegación y props          |
+🔗 [Ver sitio desplegado en Vercel](https://nextjs-multifetch-demo.vercel.app/)
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🛠️ Tecnologías principales
 
-```plaintext
-pruebas-tecnicas-nextjs/
-├── components/
-│   ├── ProductoCard.tsx
-│   └── TarjetaProducto.tsx
-├── pages/
-│   ├── producto/
-│   │   └── [id].tsx
-│   ├── blog.tsx
-│   ├── catalogo.tsx
-│   ├── clientes.tsx
-│   ├── index.tsx
-│   ├── productos.tsx
-│   ├── prueba-refactor.tsx
-│   ├── tiempo-real.tsx
-│   └── usuarios.tsx
-├── styles/
-│   └── globals.css
-├── tailwind.config.js
-├── postcss.config.js
-├── next.config.js
-├── tsconfig.json
-└── package.json
-```
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js) Framework React para SSR/SSG/ISR
+- ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss) Estilos utilitarios rápidos
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript) Tipado estático
+- ![CSS Modules](https://img.shields.io/badge/CSS%20Modules-blue) Estilos encapsulados
+- ![API Routes](https://img.shields.io/badge/API%20Routes-integrado-blueviolet)
+- ![Image Optimization](https://img.shields.io/badge/Images-NextImage-yellow)
 
 ---
 
-## 🌐 APIs Utilizadas
-
-- https://jsonplaceholder.typicode.com/users — Listar usuarios
-- https://jsonplaceholder.typicode.com/posts?_limit=5 — Listar posts
-- https://jsonplaceholder.typicode.com/todos?_limit=5 — Listar tareas
-- https://fakestoreapi.com/products?limit=6 — Listar productos
-- https://fakestoreapi.com/products/[id] — Obtener detalle de producto
-
----
-
-## 🔧 Instalación y uso
+## 📦 Estructura del proyecto
 
 ```bash
-# 1. Clona el repositorio
-git clone https://github.com/dienton82/pruebas-tecnicas-nextjs.git
-cd pruebas-tecnicas-nextjs
+pruebas-tecnicas-nextjs/
+├── components/          # Tarjetas de producto reutilizables
+├── pages/
+│   ├── producto/        # Ruta dinámica con SSG + ISR
+│   ├── clientes.tsx     # Hooks + carga condicional
+│   ├── productos.tsx    # SSR
+│   ├── tiempo-real.tsx  # SSR
+│   ├── blog.tsx         # SSG
+│   ├── usuarios.tsx     # Fetch con Hooks personalizados
+│   ├── catalogo.tsx     # Tarjetas dinámicas
+│   ├── prueba-refactor.tsx # Refactor con Imagen
+├── styles/              # Estilos globales con Tailwind y CSS modules
+├── public/              # Recursos estáticos
+├── next.config.js       # Configuración de imágenes externas
+├── tailwind.config.js   # Configuración de utilidades
+├── tsconfig.json        # Configuración de TypeScript
+└── README.md
+```
 
-# 2. Instala las dependencias
+---
+
+## 🔃 Endpoints y APIs utilizadas
+
+- `https://jsonplaceholder.typicode.com/users` — Lista de usuarios
+- `https://jsonplaceholder.typicode.com/todos` — Tareas en tiempo real
+- `https://fakestoreapi.com/products` — Catálogo de productos y detalle dinámico
+
+---
+
+## ✅ Funcionalidades implementadas
+
+| Característica                              | Estado |
+|---------------------------------------------|--------|
+| SSR para productos y tareas                 | ✅     |
+| SSG + ISR para productos dinámicos          | ✅     |
+| Rutas dinámicas con `getStaticPaths`        | ✅     |
+| Hooks personalizados para manejo de vista   | ✅     |
+| Estilos con Tailwind CSS + CSS Modules      | ✅     |
+| Imagen con optimización en Next/Image       | ✅     |
+| Navegación con botón “← Atrás”              | ✅     |
+| Proyecto deployado con Vercel               | ✅     |
+
+---
+
+## 🧪 Cómo probar localmente
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/dienton82/nextjs-multifetch-demo.git
+cd nextjs-multifetch-demo
+
+# Instalar dependencias
 npm install
 
-# 3. Ejecuta en modo desarrollo
+# Ejecutar en modo desarrollo
 npm run dev
-
 # Abre: http://localhost:3000
 ```
+
+---
+
+## 🖼️ Captura
+
+![Home](public/preview-nextjs.png)
 
 ---
 
@@ -101,7 +105,3 @@ npm run dev
 
 Este proyecto está bajo la licencia MIT.  
 © 2025 [dienton82](https://github.com/dienton82)
-
----
-
-> ✨ Gracias por revisar estas pruebas técnicas. Para sugerencias o mejoras, abre un *issue* en GitHub.
