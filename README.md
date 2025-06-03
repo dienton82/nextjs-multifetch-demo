@@ -23,12 +23,14 @@ Este proyecto es una **demostración práctica** desarrollada con Next.js, Tailw
 
 ## 🛠️ Tecnologías principales
 
-- ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js) Framework React para SSR/SSG/ISR
-- ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss) Estilos utilitarios rápidos
-- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript) Tipado estático
+- ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) Librería base para interfaces dinámicas
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) Framework React para SSR/SSG/ISR
+- ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white) Estilos utilitarios rápidos
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) Tipado estático
 - ![CSS Modules](https://img.shields.io/badge/CSS%20Modules-blue) Estilos encapsulados
-- ![API Routes](https://img.shields.io/badge/API%20Routes-integrado-blueviolet)
-- ![Image Optimization](https://img.shields.io/badge/Images-NextImage-yellow)
+- ![API Routes](https://img.shields.io/badge/API%20Routes-integrado-blueviolet) Rutas de API integradas en Next.js
+- ![Image Optimization](https://img.shields.io/badge/Images-NextImage-yellow) Optimización de imágenes con Next/Image
+
 
 ---
 
