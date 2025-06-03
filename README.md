@@ -100,7 +100,7 @@ npm run dev
 
 ## 🖼️ Captura
 
-![Home](pages/next1.webp)
+![Home](pages/next.webp)
 
 ---
 
