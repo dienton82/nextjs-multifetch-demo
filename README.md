@@ -23,7 +23,7 @@ Este proyecto es una **demostración práctica** desarrollada con Next.js, Tailw
 
 ## 🛠️ Tecnologías principales
 
-- ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) Librería base para interfaces dinámicas
+- ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) Librería base para interfaces interactivas
 - ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white) Framework React para SSR/SSG/ISR
 - ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white) Estilos utilitarios rápidos
 - ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) Tipado estático
