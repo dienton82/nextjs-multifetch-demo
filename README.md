@@ -11,7 +11,7 @@
 
 ## 🧠 Descripción
 
-Este proyecto es una **demostración práctica** desarrollada con Next.js, Tailwind CSS y TypeScript. Explora diferentes técnicas de consumo de datos con **SSR, SSG, ISR, Hooks personalizados, rutas interactivas y simulaciones de componentes reales** como catálogos, productos, blog y más.
+Este proyecto es una demostración práctica desarrollada con Next.js, Tailwind CSS y TypeScript. Explora diferentes técnicas de consumo de datos con SSR, SSG, ISR, Hooks personalizados, rutas avanzadas y simulaciones de componentes reales como catálogos, productos, blog y más.
 
 ---
 
